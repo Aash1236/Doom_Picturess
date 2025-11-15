@@ -32,7 +32,7 @@ const ServicesSec = () => {
             />
           </figure>
           {/* content */}
-          <div className="grid gap-14">
+          <div className="grid gap-2">
             <div>
               <h2>Events</h2>
               <p className="my-5 max-w-[570px]">
@@ -46,11 +46,11 @@ const ServicesSec = () => {
             </div>
 
             <div>
-                <p className="font-medium text-white mb-5]fb text-xl">
+                <p className="font-medium text-white mb-2 text-xl">
                     Service Highlights
                 </p>
                 {/* card wrapper */}
-                <div className="grid gap-2">
+                <div className="grid gap-1">
                     {servicesHeightligts.map((item) => (
                         //card
                         <ServicesCard key={item.id} label={item.label}/>

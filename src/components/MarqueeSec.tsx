@@ -6,7 +6,7 @@ import Marquee from 'react-fast-marquee'
 
 const MarqueeSec = () => {
   return (
-    <div className='border border-neutral-900 flex gap-10 justify-center '>
+    <div className='border border-neutral-950 flex gap-10 justify-center '>
         <Marquee pauseOnHover={true}>
             {marqueeItems.map((item,index) => (
                 <div className="flex items-center p-5" key={index}>

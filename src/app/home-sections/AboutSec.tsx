@@ -58,8 +58,8 @@ const AboutSec = () => {
                                 {/* social icons */}
                                 <SocialIcons />
                                 <div className="flex gap-4 flex-wrap">
-                                    <Link href='#' className="primary-btn w-full text-center">Lets's Work</Link>
-                                    <Link href='#' className="primary-btn w-full text-center">Sample Work</Link>
+                                    <Link href='#' className="primary-btn w-full text-center px-3! py-3">Let's Work</Link>
+                                    <Link href='#' className="primary-btn w-full text-center px-3! py-3">Sample Work</Link>
                                 </div>
                             </div>
                         </div>

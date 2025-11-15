@@ -8,7 +8,7 @@ interface cardProps {
 const ServicesCard = ({label}: cardProps) => {
   return (
     <div>
-        <div className="flex items-center gap-2 mb-3 border border-neutral-800 py-6 px-5">
+        <div className="flex items-center gap-2 mb-3 border rounded-[5px] border-neutral-900 py-3 px-2">
             <Image
                 src="/images/star-shape.svg"
                 alt="check icon"

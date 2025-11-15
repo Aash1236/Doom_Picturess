@@ -29,13 +29,18 @@ body {
   .section{
     @apply pt-24 md:mt-40
   }
+  
+
 }
 
 @layer components{
   .primary-btn{
-    @apply bg-neutral-800 px-8 py-5 rounded-[10px] border border-neutral-600 hover:bg-neutral-700
+    @apply bg-neutral-950 px-4 py-3 rounded-[10px] border border-neutral-800 hover:bg-neutral-800
     transition-colors
   }
+  .secondary-btn {
+  @apply bg-neutral-800 px-3 py-2 rounded-[10px] border border-neutral-600 hover:bg-neutral-700 transition-colors;
+}
 }
 
 /* header */

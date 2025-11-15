@@ -2,6 +2,8 @@ import {
   RiFacebookFill,
   RiTwitterFill,
   RiLinkedinFill,
+  RiInstagramFill,
+  RiWhatsappFill,
 } from "@remixicon/react";
 
 export const navItems = [
@@ -53,10 +55,10 @@ export const socialLinks = [
     icon: RiFacebookFill,
   },
   {
-    icon: RiTwitterFill,
+    icon: RiInstagramFill,
   },
   {
-    icon: RiLinkedinFill,
+    icon: RiWhatsappFill,
   },
 ];
 

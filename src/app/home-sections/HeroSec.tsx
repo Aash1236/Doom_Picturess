@@ -6,7 +6,7 @@ import MarqueeSec from '@/components/MarqueeSec'
 const HeroSec = () => {
   return (
     <section >
-        <div>
+        <div >
         {/* content */}
         <div className="container grid lg:grid-cols-3 lg:items-center">
             {/* title */}

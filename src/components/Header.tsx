@@ -13,7 +13,7 @@ const Header = () => {
   }
   const pathname = usePathname()
   return (
-    <header className='border-b border-neutral-900'>
+    <header className=''>
         <div className="container flex items-center justify-between py-5 lg:pb-0">
             {/* Logo */}
             <Link href="/" className='text-3xl font-medium uppercase'>Doom Pictures</Link>
@@ -42,10 +42,10 @@ const Header = () => {
             </nav>
 
             {/* lg menu */}
-            <ul className="max-lg:hidden flex items-center border border-neutral-800 rounded-t-2xl overflow-hidden">
+            <ul className="max-lg:hidden flex items-center border border-neutral-800 rounded-2xl overflow-hidden">
                   {navItems.map((item) => (
                     <li key={item.id}>
-                    <Link href={item.path} className={`px-8 py-5 block hover:bg-neutral-900 transition-colors ${pathname === item.path ? "bg-neutral-900" : ""}`}>{item.label}</Link>
+                    <Link href={item.path} className={`px-3 py-2 block hover:bg-neutral-900 transition-colors ${pathname === item.path ? "bg-neutral-900" : ""}`}>{item.label}</Link>
                     </li>
                   ))}
                 </ul>
